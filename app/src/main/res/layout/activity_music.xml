@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_music_scene"
+    tools:context=".MusicActivity_music">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/img_2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/img" />
+
+        <Button
+            android:id="@+id/button_music1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="MUSIC_START"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/button_music2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MUSIC_STOP"
+            android:textSize="40dp" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.motion.widget.MotionLayout>

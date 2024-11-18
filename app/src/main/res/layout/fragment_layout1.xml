@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".Fragment1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imageView_left1"
+                android:src="@drawable/icon1"
+                android:layout_width="32dp"
+                android:layout_height="32dp" />
+            <ImageView
+                android:id="@+id/imageView_left2"
+                android:src="@drawable/icon1"
+                android:layout_width="32dp"
+                android:layout_height="32dp" />
+            <ImageView
+                android:id="@+id/imageView_left3"
+                android:src="@drawable/icon1"
+                android:layout_width="32dp"
+                android:layout_height="32dp" />
+            <ImageView
+                android:id="@+id/imageView_left4"
+                android:src="@drawable/icon1"
+                android:layout_width="32dp"
+                android:layout_height="32dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pokémon"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:paddingBottom="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"/>
+
+            <ImageView
+                android:id="@+id/imageView_right1"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/icon1" />
+            <ImageView
+                android:id="@+id/imageView_right2"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/icon1" />
+            <ImageView
+                android:id="@+id/imageView_right3"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/icon1" />
+            <ImageView
+                android:id="@+id/imageView_right4"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/icon1" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/fun1" />
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/fun2" />
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/fun3" />
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/fun4" />
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/fun5" />
+    </LinearLayout>
+</ScrollView>

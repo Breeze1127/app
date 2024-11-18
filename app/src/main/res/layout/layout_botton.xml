@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="0dp">
+
+    <LinearLayout
+        android:id="@+id/button_LinearLayout1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/r1" />
+
+        <TextView
+            android:id="@+id/textView_botton1"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Center"
+            android:textAllCaps="false"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_LinearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/r2" />
+
+        <TextView
+            android:id="@+id/textView_botton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:text="Pokémon"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_LinearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/r3" />
+
+        <TextView
+            android:id="@+id/textView_botton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:text="New"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_LinearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/r4" />
+
+        <TextView
+            android:id="@+id/textView_botton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:text="Setting"
+            android:textSize="23sp" />
+    </LinearLayout>
+</LinearLayout>

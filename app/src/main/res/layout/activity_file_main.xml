@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FileMainActivity">
+
+    <TextView
+        android:id="@+id/textView_file_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="File"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/button_file_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="写入sp"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/button_flie_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="读出sp"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/button_flie_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="文件写"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/button_flie_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="文件读"
+        android:textSize="60sp" />
+</LinearLayout>
